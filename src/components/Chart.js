@@ -14,9 +14,7 @@ const Chart = () => {
         <div className="flex flex-col items-center w-1/4">
           {/* Story Above Meme */}
           <div className="bg-white text-black p-4 mb-4 rounded">
-            <p>THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST.
-            THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST.
-            </p>
+            <p>THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST.</p>
           </div>
 
           {/* Left Meme */}
@@ -24,9 +22,7 @@ const Chart = () => {
 
           {/* Story Below Meme */}
           <div className="bg-white text-black p-4 mt-4 rounded">
-            <p>THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST.
-            THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST.
-            </p>
+            <p>THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST.</p>
           </div>
         </div>
 
@@ -36,6 +32,7 @@ const Chart = () => {
           height="970px"
           width="100%"
           style={{ border: '0', margin: '0 auto', display: 'block', borderRadius: '10px', maxWidth: '960px', minWidth: '300px' }}
+          title="Uniswap Trading Widget"  // Unique title property added
           allowFullScreen
         ></iframe>
 
@@ -43,9 +40,7 @@ const Chart = () => {
         <div className="flex flex-col items-center w-1/4">
           {/* Story Above Meme */}
           <div className="bg-white text-black p-4 mb-4 rounded">
-            <p>THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST.
-            THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST.
-            </p>
+            <p>THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST.</p>
           </div>
 
           {/* Right Meme */}
@@ -53,10 +48,7 @@ const Chart = () => {
 
           {/* Story Below Meme */}
           <div className="bg-white text-black p-4 mt-4 rounded">
-            <p>THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. 
-            THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. 
-            THERE IS NO SECOND BEST.
-            </p>
+            <p>THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST. THERE IS NO SECOND BEST.</p>
           </div>
         </div>
       </div>
