@@ -29,14 +29,14 @@ function App() {
     <div className="h-screen flex flex-col">
       <Header />
       <Subfooter onBuyClick={handleBuyClick} onChartClick={handleChartClick} />
-      <div className="flex-grow flex">
-        <div className="w-3/5 h-full">
+      <div className="flex-grow flex flex-col lg:flex-row">
+        <div className="lg:w-3/5 w-full h-full">
           <LeftPanel />
         </div>
-        <div className="w-1/4 h-full">
+        <div className="lg:w-1/4 w-full h-full">
           <StorySection />
         </div>
-        <div className="w-1/5 h-full">
+        <div className="lg:w-1/5 w-full h-full">
           <StockTicker />
         </div>
       </div>
@@ -47,7 +47,6 @@ function App() {
         <Chart />
       </div>
       <Videos />
-      {/* Footer at the bottom */}
       <Footer />
     </div>
   );

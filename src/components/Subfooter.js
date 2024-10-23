@@ -14,8 +14,7 @@ const Subfooter = ({ onChartClick }) => {
         <button onClick={handleBuyClick} className="text-red-400 hover:text-yellow-600 text-lg cursor-pointer">
           BUY
         </button>
-        <button className="text-red-400 hover:text-pink-600 text-lg">WORMHOLE</button>
-        <button className="text-red-400 hover:text-orange-600 text-lg">MERCH</button>
+        <button className="text-red-400 hover:text-pink-600 text-lg">WORMHOLE??</button>
       </div>
       <div className="relative">
         <select className="bg-gray-800 text-white py-2 px-4 border border-white rounded">
