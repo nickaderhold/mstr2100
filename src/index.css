@@ -5,6 +5,8 @@ body, html {
   margin: 0;
   padding: 0;
   overflow-y: auto; /* Ensure natural body scroll */
+  overflow-x: hidden;
+
 }
 
 /* Tailwind Base, Components, and Utilities */
@@ -88,7 +90,7 @@ body, html {
 }
 
 .animate-scroll-large {
-  animation: scroll-large 10s linear infinite;
+  animation: scroll-large 20s linear infinite;
 }
 
 
