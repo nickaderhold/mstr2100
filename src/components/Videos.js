@@ -13,7 +13,7 @@ const Videos = () => {
         {/* Trump Endorsement */}
         <div className="flex flex-col items-center">
           <h2 className="text-xl sm:text-3xl font-semibold mb-6 uppercase">Trump Endorsement</h2>
-          <video className="w-64 h-64 sm:w-80 sm:h-80 object-contain" controls>
+          <video className="w-64 h-64 sm:w-80 sm:h-80 object-contain" controls muted autoPlay loop playsInline>
             <source src="trumpmstr.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -22,7 +22,7 @@ const Videos = () => {
         {/* Joe Rogan Endorsement */}
         <div className="flex flex-col items-center">
           <h2 className="text-xl sm:text-3xl font-semibold mb-6 uppercase">Joe Rogan Endorsement</h2>
-          <video className="w-64 h-64 sm:w-80 sm:h-80 object-contain" controls>
+          <video className="w-64 h-64 sm:w-80 sm:h-80 object-contain" controls muted autoPlay loop playsInline>
             <source src="joerogan.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -31,7 +31,7 @@ const Videos = () => {
         {/* Elon Musk Endorsement */}
         <div className="flex flex-col items-center">
           <h2 className="text-xl sm:text-3xl font-semibold mb-6 uppercase">Elon Musk Endorsement</h2>
-          <video className="w-64 h-64 sm:w-80 sm:h-80 object-contain" controls>
+          <video className="w-64 h-64 sm:w-80 sm:h-80 object-contain" controls muted autoPlay loop playsInline>
             <source src="elonmstr.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -56,6 +56,7 @@ const Videos = () => {
 };
 
 export default Videos;
+
 
 
 

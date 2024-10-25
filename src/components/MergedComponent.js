@@ -43,7 +43,7 @@ const MergedComponent = () => {
         {/* Video Section (Standalone) */}
         <div className="w-full p-6">
           <div className="video-container mt-4">
-            <video width="100%" height="auto" controls>
+            <video width="100%" height="auto" controls muted autoPlay loop playsInline>
               <source src="img_1192.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -56,6 +56,7 @@ const MergedComponent = () => {
 };
 
 export default MergedComponent;
+
 
 
 
