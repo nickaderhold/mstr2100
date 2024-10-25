@@ -1,7 +1,18 @@
+/* Allow body and html to scroll naturally */
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto; /* Ensure natural body scroll */
+}
+
+/* Tailwind Base, Components, and Utilities */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Keyframes for Scroll Animation */
 @keyframes scroll {
   0% {
     transform: translateY(0%);
@@ -11,11 +22,13 @@
   }
 }
 
+/* Vertical Scroll Animation Class */
 .vertical-scroll {
   display: inline-block;
   animation: scroll 8s linear infinite;
 }
 
+/* Custom Keyframes for Spin Animation */
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -24,6 +37,60 @@
     transform: rotate(360deg);
   }
 }
+
+/* Custom Spin Class */
+.spin-animation {
+  animation: spin 3s linear infinite;
+}
+
+/* Container that takes up full height and allows scrolling */
+.scroll-container {
+  min-height: 100vh; /* Full viewport height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+/* Responsive Media Queries */
+@media (max-width: 640px) {
+  .custom-class {
+    padding: 10px;
+  }
+
+  /* iPhone-specific adjustments */
+  .w-full {
+    width: 100%;
+  }
+
+  .h-auto {
+    height: auto;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .custom-class {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .custom-class {
+    padding: 20px;
+  }
+}
+
+@keyframes scroll-large {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-scroll-large {
+  animation: scroll-large 10s linear infinite;
+}
+
 
 
 

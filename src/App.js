@@ -1,13 +1,12 @@
 import React, { useRef } from 'react';
 import Header from './components/Header';
 import Subfooter from './components/Subfooter';
-import StockTicker from './components/StockTicker';
-import LeftPanel from './components/LeftPanel';
-import StorySection from './components/StorySection';
 import UniswapTrade from './components/UniswapTrade';
 import Chart from './components/Chart';
 import Videos from './components/Videos';
 import Footer from './components/Footer'; // Import Footer component
+import MergedComponent from './components/MergedComponent'; // Import the merged component
+import StockTicker from './components/StockTicker';
 
 function App() {
   const uniswapRef = useRef(null);
@@ -29,17 +28,13 @@ function App() {
     <div className="h-screen flex flex-col">
       <Header />
       <Subfooter onBuyClick={handleBuyClick} onChartClick={handleChartClick} />
+      <StockTicker />
+
+      {/* Replace LeftPanel, StorySection, and StockTicker with MergedComponent */}
       <div className="flex-grow flex flex-col lg:flex-row">
-        <div className="lg:w-3/5 w-full h-full">
-          <LeftPanel />
-        </div>
-        <div className="lg:w-1/4 w-full h-full">
-          <StorySection />
-        </div>
-        <div className="lg:w-1/5 w-full h-full">
-          <StockTicker />
-        </div>
+        <MergedComponent />
       </div>
+
       <div ref={uniswapRef}>
         <UniswapTrade />
       </div>
@@ -53,6 +48,7 @@ function App() {
 }
 
 export default App;
+
 
 
 

@@ -6,27 +6,23 @@ const Subfooter = ({ onChartClick }) => {
   };
 
   return (
-    <div className="subfooter border-t border-white flex justify-between items-center p-4 bg-black">
-      <div className="flex justify-start space-x-8">
-        <button onClick={onChartClick} className="text-red-400 hover:text-green-600 text-lg cursor-pointer">
+    <div className="subfooter border-t border-white flex flex-col sm:flex-row justify-between items-center p-4 bg-black">
+      <div className="flex justify-start space-x-4 sm:space-x-6 md:space-x-8 mb-4 sm:mb-0">
+        <button onClick={onChartClick} className="text-red-400 hover:text-green-600 text-md sm:text-lg cursor-pointer">
           CHART
         </button>
-        <button onClick={handleBuyClick} className="text-red-400 hover:text-yellow-600 text-lg cursor-pointer">
+        <button onClick={handleBuyClick} className="text-red-400 hover:text-yellow-600 text-md sm:text-lg cursor-pointer">
           BUY
         </button>
-        <button className="text-red-400 hover:text-pink-600 text-lg">WORMHOLE??</button>
+        <button className="text-red-400 hover:text-pink-600 text-md sm:text-lg">WORMHOLE??</button>
       </div>
-      <div className="relative">
-        <select className="bg-gray-800 text-white py-2 px-4 border border-white rounded">
-          <option value="en">English</option>
-          <option value="zh">Chinese</option>
-        </select>
-      </div>
+      
     </div>
   );
 };
 
 export default Subfooter;
+
 
 
 
