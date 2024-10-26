@@ -29,16 +29,25 @@ const MergedComponent = () => {
       {/* Right Side: This section will stack vertically on small screens */}
       <div className="lg:w-2/5 w-full flex flex-col bg-black text-white">
 
-        {/* Story Section */}
-        <div className="w-full p-6">
-          <h2 className="text-2xl lg:text-3xl font-bold mb-4">Lore</h2>
-          <div className="story-item mb-6">
-            <h3 className="text-lg lg:text-xl font-semibold mb-2">The 5 FOOT Midget Developer</h3>
-            <p>
-              We hit the damn moon. MSTR peaked at a glorious 37 million market cap, everyone thought we were unstoppable. Then, out of nowhere, our sneaky developer decided to dump his fat 60% bag. Like a stone thrown into a lake, we sank, plummeting to a measly 6 million. The wildest part? Every time he sold, the guy SHRUNK. He was 5 feet tall when he started, but now? He’s a tiny, angry 3-foot midget, still selling his damn bag. Every time the market tries to rise, he shrinks a bit more. Soon, he'll disappear into thin air with what’s left of his supply!
-            </p>
-          </div>
-        </div>
+{/* Story Section */}
+<div className="w-full p-6">
+  <h2 className="text-2xl lg:text-3xl font-bold mb-4">Stories</h2>
+  <div className="story-item mb-6">
+    <h3 className="text-lg lg:text-xl font-semibold mb-2">Medium Article</h3>
+    <p>
+      Memecoins like MSTR2100 and SPX6900 act as decentralized versions of these derivatives. 
+      They enable cryptocurrency traders to place speculative bets on the future value of real-world assets—MicroStrategy's stock and the S&P 500 index, respectively—without directly interacting with traditional financial systems. 
+      This innovation allows for speculative markets to emerge within decentralized finance (DeFi), where traders can engage with RWAs through a more cost-efficient, trustless platform using smart contracts.{' '}
+      <a href="https://medium.com/@BobbyGiggz/mstr2100-and-spx6900-memecoins-as-decentralized-derivatives-prediction-markets-and-the-bd35ca1748ac" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         className="text-blue-500 hover:underline">
+        Read more on Medium
+      </a>.
+    </p>
+  </div>
+</div>
+
 
         {/* Video Section (Standalone) */}
         <div className="w-full p-6">
