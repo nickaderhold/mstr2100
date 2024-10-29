@@ -26,7 +26,7 @@ const Footer = () => {
       <div className="text-center lg:text-right lg:w-1/2 space-y-2">
         <p className="text-sm sm:text-lg">© 2024 MSTR2100. All rights reserved. (Not Financial Advice... or is it? 😉)</p>
         <p className="text-xs sm:text-sm">
-          This is a parody of the actual MSTR stock. All videos are AI-generated. SPX6900 Token is a meme token created for entertainment purposes only and has no association with any stocks, equities, or securities. Any resemblance to the stock market is coincidental and for satirical purposes. This token has no intrinsic value or financial return.
+          This is a parody of the actual MSTR stock. All videos are AI-generated. MSTR2100 Token is a meme token created for entertainment purposes only and has no association with any stocks, equities, or securities. Any resemblance to the stock market is coincidental and for satirical purposes. This token has no intrinsic value or financial return.
         </p>
       </div>
     </footer>
