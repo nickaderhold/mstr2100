@@ -81,9 +81,15 @@ const NewScreen = ({ onMemesClick }) => {
         </p>
 
         <div className="mt-4 md:mt-6 flex flex-col md:flex-row items-center space-y-3 md:space-y-0 md:space-x-4">
-          <button className="bg-black text-white font-bold py-2 px-5 rounded-full text-xs md:text-lg shadow-md hover:scale-105 transition">
-            Buy Now
-          </button>
+        <a
+  href="https://www.dextools.io/app/en/token/mstr1?t=1742844918694"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-black text-white font-bold py-2 px-5 rounded-full text-xs md:text-lg shadow-md hover:scale-105 transition text-center"
+>
+  Buy Now
+</a>
+
           <a href="https://t.me/MSTR2100Portal" target="_blank" rel="noopener noreferrer" className="border border-white text-white font-bold py-2 px-5 rounded-full text-xs md:text-lg shadow-md hover:scale-105 transition">
             Join our Telegram
           </a>
