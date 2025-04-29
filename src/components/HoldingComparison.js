@@ -39,7 +39,7 @@ const HoldingsShowcase = () => {
           {/* MicroStrategy Box */}
           <div>
             <h3 className="text-lg font-semibold text-white mb-3">
-              MicroStrategy’s Satoshi Holdings
+              Strategy’s Satoshi Holdings
             </h3>
             <div className="bg-white bg-opacity-90 shadow-xl rounded-xl py-10 px-6">
               <p className="text-3xl font-mono text-gray-900">
