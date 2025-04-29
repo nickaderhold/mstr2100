@@ -9,6 +9,8 @@ import ArticlesScreen from "./components/ArticlesScreen";
 import ArtGallery from "./components/ArtGallery";
 import MSTRJobBoard from "./components/MstrJobBoard";
 import LastPage from "./components/LastPage";
+import HoldingsComparison from "./components/HoldingComparison";
+import WelcomeModal from "./components/WelcomeModal";
 import './tailwind.css';
 
 function App() {
@@ -22,34 +24,33 @@ function App() {
 
   return (
     <div className="App">
+      <WelcomeModal />
+
+
+
       <NewScreen onMemesClick={scrollToThirdScreen} />
-
       <SecondScreen />
-
+      <HoldingsComparison />
       <div ref={thirdScreenRef}>
         <ThirdScreen />
       </div>
-
       <FourthScreen />
-
       <div id="video-section">
         <VideoSection />
       </div>
-
       <div id="gallery">
         <ArtGallery />
       </div>
-
       <div id="based-saylor">
         <BasedSaylor />
       </div>
-
       <ArticlesScreen />
       <MSTRJobBoard />
       <LastPage />
     </div>
   );
 }
+
 
 export default App;
 

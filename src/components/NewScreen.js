@@ -73,7 +73,7 @@ const NewScreen = ({ onMemesClick }) => {
           className="w-[500px] h-[30px] md:h-[45px] lg:h-[55px] object-contain mb-4 md:mb-6"
         />
 
-        <h2 className="text-lg md:text-4xl font-extrabold leading-[1.2] whitespace-nowrap">A leading stock to meme token.</h2>
+        <h2 className="text-lg md:text-4xl font-extrabold leading-[1.2] whitespace-nowrap">THE official BTC meme token</h2>
         <h2 className="text-lg md:text-4xl font-extrabold leading-[1.2]">Inspired by Saylor’s conviction.</h2>
 
         <p className="text-xs md:text-base mt-5 md:mt-7 leading-relaxed">
