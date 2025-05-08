@@ -13,12 +13,15 @@ const WelcomeModal = () => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 px-4">
       <div className="bg-white rounded-2xl shadow-2xl p-6 max-w-md w-full text-center">
-        <h2 className="text-2xl font-bold mb-4">🚀 Welcome to MSTR2100.com v2</h2>
+        <h2 className="text-2xl font-bold mb-4">
+          🚀 BREAKING: #MSTR2100 – the official bitcoin memecoin is going FULL SAYLOR MODE 🚀
+        </h2>
         <p className="text-gray-800 mb-3">
-          You’ve just entered the citadel of conviction. This is the official BTC meme token.
+          We have launched a community-funded <span className="font-semibold">Strategic Bitcoin Reserve</span>, matching EVERY satoshi that <span className="font-mono">@Strategy</span> holds in $BTC!
         </p>
         <p className="text-gray-700 italic mb-4">
-          Next on the roadmap? Becoming the <span className="font-semibold">memecoin with the most satoshis on Earth</span>. Currently in first round of funding now.
+          This is just the beginning – we’ll mirror ALL of Saylor’s future #bitcoin buys in satoshis.<br />
+          <span className="font-semibold">@MSTR2100</span> has acquired <span className="font-mono">555,450</span> satoshis as of today.
         </p>
         <button
           onClick={() => {
@@ -35,5 +38,6 @@ const WelcomeModal = () => {
 };
 
 export default WelcomeModal;
+
 
 

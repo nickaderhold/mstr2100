@@ -1,9 +1,8 @@
 import React from 'react';
 
 const HoldingsShowcase = () => {
-  const mstr2100Sats = 0;
-  const mstrBTC = 553555;
-  const mstrSats = mstrBTC * 100_000_000;
+  const mstr2100Sats = 555_450;
+  const mstrBTC = 555_450;
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
@@ -31,7 +30,7 @@ const HoldingsShowcase = () => {
             </h3>
             <div className="bg-white bg-opacity-90 shadow-xl rounded-xl py-10 px-6">
               <p className="text-3xl font-mono text-gray-900">
-                {mstr2100Sats.toLocaleString()} sats (for now)
+                {mstr2100Sats.toLocaleString()} sats
               </p>
             </div>
           </div>
@@ -39,11 +38,11 @@ const HoldingsShowcase = () => {
           {/* MicroStrategy Box */}
           <div>
             <h3 className="text-lg font-semibold text-white mb-3">
-              Strategy’s Satoshi Holdings
+              Strategy’s Bitcoin Holdings
             </h3>
             <div className="bg-white bg-opacity-90 shadow-xl rounded-xl py-10 px-6">
               <p className="text-3xl font-mono text-gray-900">
-                {mstrSats.toLocaleString()} sats
+                {mstrBTC.toLocaleString()} BTC
               </p>
             </div>
           </div>
@@ -54,6 +53,7 @@ const HoldingsShowcase = () => {
 };
 
 export default HoldingsShowcase;
+
 
 
 
